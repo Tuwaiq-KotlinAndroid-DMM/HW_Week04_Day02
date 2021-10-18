@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#F8C3C3"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/affir_textView"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Let it go"
+            android:textColor="#3F51B5"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.056"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/affir_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            app:layout_constraintBottom_toTopOf="@+id/affir_textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/img_1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
