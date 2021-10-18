@@ -4,21 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="300dp">
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardView"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="250dp"
+        android:layout_margin="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#B3B3B3"
+        app:strokeWidth="1dp">
 
         <ImageView
             android:id="@+id/image_view"
             android:layout_width="250dp"
             android:layout_height="150dp"
-            android:layout_gravity="center|top" />
+            android:layout_gravity="center|top"
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:id="@+id/text_view"
@@ -30,5 +34,5 @@
             android:textColor="#000000"
             android:textSize="24sp" />
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
