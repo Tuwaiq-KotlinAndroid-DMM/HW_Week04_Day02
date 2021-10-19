@@ -1,0 +1,2 @@
+com/example/hww4d2/BuildConfig.java
+ com.example.hww4d2.BuildConfig
